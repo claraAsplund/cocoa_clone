@@ -1,3 +1,3 @@
-#cocoa clone
+#Kokoa Clone 2024 Update
 
-Css got much better
+HTML & CSS are so much fun!

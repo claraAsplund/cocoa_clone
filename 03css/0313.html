@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nico Times</title>
+
+    <style>
+     body{
+        height : 1000vh;
+        margin: 50px;
+       
+     }
+
+     div{
+      
+      width: 300px;
+      height: 300px;
+      background-color: wheat;
+      position: relative;
+     
+     }
+
+     .green{
+        background-color: teal;
+        height: 100px;
+        width:100px;
+        position: absolute;
+        top: 0px;
+        right:0px;
+        
+     }
+    </style>
+</head>
+ <body>
+  <div>
+    <div class="green"></div>
+
+  </div>
+ 
+ </body>
+</html>
+
+<!-- position   going to div position fixed: stay there
+ CSS position 속성은 문서 상에 요소를 배치하는 방법을 지정합니다. 
+ position: static means where the layout puts done
+ 
+ position relative : element가 처음으로 위치한 곳을 기준으로 수정
+ based on where it has started, so where it has started and -10
+ important starting point, from starting point and to the top, bottom, left and right
+ 
+ position absolute, box goes to the right, left, top, bottom to the BODY, not the Parent Box
+ because of the main rule of position absolute
+ 
+ Rule of the Position Absolute 
+ div try to find "relative" parents, in this case class="green"'s parents is NOT relative, so
+ is to BODY 
+ fixed, relative, absolute, default:static
+ most important is absolute and relative 
+ 
+ NB!!
+ many make mistake, the box is absolute and the parent is not relative, then tha standard becomes
+ to the body! -->

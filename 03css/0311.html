@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     body{
+        height : 100vh;
+        margin: 20px;
+        display : flex;
+        justify-content: space-between;
+        
+        align-items:center;
+        
+        flex-direction: column-reverse;
+        
+     }
+
+     div{
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      width: 300px;
+      height: 300px;
+      font-size: 28px;
+      color: white;
+      
+      background-color: teal;
+      
+
+     }
+     #second{
+        background-color: wheat;
+     }
+   
+   
+    </style>
+</head>
+ <body>
+  <div>1</div>
+  <div id="second">2</div>
+  <div>3</div>
+  
+
+ </body>
+</html>
+
+<!--flexbox can be anywhere, rule of flexbox are very important
+1. You do not talk with children; you only talk to the father.  
+if you want to move <div>, than write on the <body>, body is the father of div
+make father a flex box container
+
+flex-start is the default
+space-evenly space distributed evenly 
+
+
+2. 
+Justify-content works for main axis, 수평     
+align-items works for cross axis, 수직(dedault, so can modify later)                        
+주축 (main axis) horizontal 수평
+and 교차축(cross axis) is vertical 수직 
+
+vh(viewpoint height , screen)
+in order to use justify-content and align-items to apply
+display:flex first, and the body become a flex container
+
+flex direction:
+display : flex default is row, horizontal
+flex direction: column, than main axis become verical, and cross axis become
+horizontal
+                                   -->

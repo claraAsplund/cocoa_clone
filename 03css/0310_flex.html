@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     body{
+        height : 100vh;
+        margin: 20px;
+        display : flex;
+        justify-content: space-between;
+        align-items:center;
+     }
+
+     div{
+      
+      width: 300px;
+      
+      background-color: teal;
+      
+
+     }
+     #second{
+        background-color: wheat;
+     }
+   
+   
+    </style>
+</head>
+ <body>
+  <div></div>
+  <div id="second"></div>
+  <div></div>
+  
+
+ </body>
+</html>
+
+<!--flexbox can be anywhere, rule of flexbox are very important
+1. You do not talk with children; you only talk to the father.  
+if you want to move <div>, than write on the <body>, body is the father of div
+make father a flex box container
+
+flex-start is the default
+space-evenly space distributed evenly 
+
+
+/* 분산 정렬 */
+justify-content: space-between; /* 항목들을 고르게 정렬합니다.
+                                   첫 항목은 시작 부분에 밀착되어 정렬됩니다.
+                                   마지막 항목은 끝 부분에 밀착되어 정렬됩니다. */
+justify-content: space-around; /* 항목들을 고르게 정렬합니다. 
+                                   각 항목들은 양쪽 여백의 절반만큼 나누어 갖습니다. */
+justify-content: space-evenly; /* 항목들을 고르게 정렬합니다.
+                                   각 항목들은 서로 간에 동일한 여백을 갖습니다. */
+justify-content: stretch; /* 항목들을 고르게 정렬합니다.
+                                   'auto' 크기로 설정된 항목들을 컨테이너에 맞게 늘립니다. */
+2. 
+Justify-content works for main axis, 수평     
+align-items works for cross axis, 수직(dedault, so can modify later)                        
+주축 (main axis) horizontal 수평
+and 교차축(cross axis) is vertical 수직 
+
+vh(viewpoint height , screen)
+in order to use justify-content and align-items to apply
+display:flex first, and the body become a flex container
+                                   -->

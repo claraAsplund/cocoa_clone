@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nico Times</title>
+    <style>
+      @keyframes superSexyCoinFlip{
+        from{
+            transform: rotateY(0deg);
+        }
+        to{
+            transform: rotateY(360deg) translateX(100px);
+        }
+
+      }
+
+      img{
+        border:5px solid pink;
+        border-radius: 50%; 
+        animation: superSexyCoinFlip 5s ease-in-out infinite;
+          
+        }
+     
+    </style>
+</head>
+<body>
+    <img src="leopard.jpeg" />
+   
+</body>
+</html>
+
+<!-- playing all that time, without transition
+ when the mouse is on, that is not Animation
+ transition은 애니메이션으로 만들지. one state to the other, but this is possible
+ when mouse is top of the img
+ 1. img hover and transform matrix and go to transition so transform kicks in
+ @keyframs name_of_animation
+ from{
+ }
+ to{
+ } -->
